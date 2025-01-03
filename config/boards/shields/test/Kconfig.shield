@@ -1,0 +1,2 @@
+config SHIELD_LEMTEST
+    def_bool $(shields_list_contains, test)
