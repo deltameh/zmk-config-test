@@ -14,11 +14,11 @@
                 &kp KP_N1    &kp KP_N2    &kp KP_N3
             >;
         }; 
-        
+
         bt_layer {
             bindings = <
                                 &none
-                &bt BT_SEL 2    &bt BT_SEL 1    bt BT_CLR
+                &bt BT_SEL 2    &bt BT_SEL 1    &bt BT_CLR
                 &none           &none           &none
                 &none           &none           &none
             >;
