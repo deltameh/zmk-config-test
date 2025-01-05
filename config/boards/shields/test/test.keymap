@@ -9,9 +9,9 @@
         default_layer {
             bindings = <
                              &mo 1
-                &kp KP_NUMBER_A    &kp KP_NUMBER_G    &kp KP_NUMBER_H
-                &kp KP_NUMBER_B    &kp KP_NUMBER_F    &kp KP_NUMBER_I
-                &kp KP_NUMBER_C    &kp KP_NUMBER_D    &kp KP_NUMBER_J
+                &kp A    &kp G    &kp H
+                &kp B    &kp F    &kp I
+                &kp C    &kp D    &kp J
             >;
         }; 
 
