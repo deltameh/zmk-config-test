@@ -12,7 +12,7 @@
 
         default_layer {
             bindings = <
-                             &mo 1
+                         &mo 1
                 &kp A    &kp G    &kp H
                 &kp B    &kp F    &kp I
                 &kp C    &kp D    &kp J
