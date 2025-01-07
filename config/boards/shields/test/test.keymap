@@ -12,7 +12,7 @@
 
         default_layer {
             bindings = <
-                                  &kp I
+                         &kp I
                 &kp A    &kp G    &kp H
                 &kp B    &kp F    &kp I
                 &kp C    &kp D    &kp J
@@ -23,7 +23,7 @@
 
         bt_layer {
             bindings = <
-                                                &none
+                                &none
                 &bt BT_SEL 2    &bt BT_SEL 1    &bt BT_CLR
                 &none           &kp W           &none
                 &none           &none           &none
