@@ -1,5 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+        &right_encoder {
+            status = "okay";
+        };
+        
 / {
     chosen {
         zmk,kscan = &default_kscan;
@@ -45,9 +49,5 @@
             compatible = "zmk,keymap-sensors";
             sensors = <&right_encoder>;
             triggers-per-rotation = <20>;
-        };
-
-        &right_encoder {
-            status = "okay";
         };
 };
