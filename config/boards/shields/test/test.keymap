@@ -2,10 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&right_encoder {
-    status = "okay";
-};
-
 / {  
     keymap {
         compatible = "zmk,keymap";
@@ -23,7 +19,7 @@
 
         bt_layer {
             bindings = <
-                                &none
+                                                &none
                 &bt BT_SEL 2    &bt BT_SEL 1    &bt BT_CLR
                 &none           &kp W           &none
                 &none           &none           &none
