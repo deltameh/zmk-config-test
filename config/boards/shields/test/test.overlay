@@ -3,7 +3,7 @@
         &right_encoder {
             status = "okay";
         };
-        
+
 / {
     chosen {
         zmk,kscan = &default_kscan;
@@ -37,7 +37,7 @@
         >;
     };
 
-        right_encoder: encoder_right {
+        right_encoder: encoder_1: encoder_1 {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
