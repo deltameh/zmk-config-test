@@ -15,7 +15,7 @@
                          &kp I
                 &kp A    &kp G    &kp H
                 &kp B    &kp F    &kp I
-                &kp C    &kp D    &kp J
+                &mo 1    &kp D    &kp J
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 
